@@ -3,4 +3,7 @@ project(graph)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(graph main.cpp)
+add_executable(graph main.cpp
+        Application.cpp
+        Application.h
+        Array.h)
